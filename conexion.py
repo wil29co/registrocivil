@@ -11,7 +11,7 @@ def conectar_base_datos():
         )
 
         if conexion.is_connected():
-            print("✅ Conexión exitosa a la base de datos.")
+            print("✅ Conexión exitosa.")
             return conexion
 
     except Error as e:
