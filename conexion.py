@@ -11,7 +11,7 @@ def conectar_base_datos():
         )
 
         if conexion.is_connected():
-            print("✅ Conexión exitosa.")
+            print("✅ Conexión exitosa. Desde Nol")
             return conexion
 
     except Error as e:
